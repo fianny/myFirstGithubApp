@@ -1,0 +1,29 @@
+{
+  "name": "myfirstgithubapp",
+  "version": "1.0.0",
+  "description": "This is a repo to test sample github app. This is for testing PR. Update again. Test again",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fianny/myFirstGithubApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/fianny/myFirstGithubApp/issues"
+  },
+  "homepage": "https://github.com/fianny/myFirstGithubApp#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "octokit": "^5.0.5"
+  },
+  "devDependencies": {
+    "smee-client": "^3.1.1"
+  }
+}
